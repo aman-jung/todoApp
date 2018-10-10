@@ -1,0 +1,56 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #66ccff;
+  font-family: sans-serif;
+}
+#root {
+  display: flex;
+  justify-content: center;
+}
+.todo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+.bg {
+  background-color: #313332;
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.todo .header input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #fff;
+  width: 165px;
+}
+
+.todo .header button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: #0066ff;
+  color: #fff;
+  border: 2px solid #0066ff;
+}
+
+.todo .header button:hover {
+  background-color: #003399;
+  border: 2px solid #003399;
+  cursor: pointer;
+}
+.completed {
+  display: none;
+}
+.notcompleted {
+  display: flex;
+}
+ul li {
+  list-style-type: none;
+}
