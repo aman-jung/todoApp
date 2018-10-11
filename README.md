@@ -1,4 +1,4 @@
-#Todo List 
+# Todo List 
 This is a simple todo list which is created using React js and LocalStorage.
 ## Getting Started
 I have built a todo app using reactjs and i am storing it in local storage for persistence of data.
@@ -12,7 +12,11 @@ There are 5 Components in this project. Among them Display and Done component is
 3. I can drag and drop items in display component.
 4. Finally, I can delete items in Done Component.
 5.I used localStorage So that if the page is refreshed then the data is not loss . Same data is displayed in the screen if it is refreshed.
-## How to Start
-### Clone 
+## Instructions
+First Clone this repository
+### `https://github.com/aman-jung/todoApp.git`
+Install dependencies. Make sure you already have  [`nodejs`](https://nodejs.org/en/) & [`npm`](https://www.npmjs.com/) installed in your system.
+Once all those dependencies are installed . Run as
+
 ### `npm start`
 
